@@ -1,0 +1,202 @@
+/* foor root variable */
+:root {
+  --white: #fff;
+  --primaryColor: #f1f1f1;
+  --default: #4a1667;
+  --dark-color: #222;
+  --black: #000;
+  --font-family: 'Dosis', sans-serif;
+}
+
+/* for main content or header content*/
+.main_header{
+  background:url(./images/showcase_img.jpg) no-repeat ;
+  background-size: cover;
+  background-position: top bottom center left;
+
+}
+
+.header_overly{
+  background-color:#949494b8;
+  padding-bottom: 40px;
+}
+.main_header .banner_left{
+  margin-top: 200px;
+}
+
+.main_header .banner_left h2{
+
+    color: var(--default);
+    font-size: 4.5rem;
+    margin-bottom: 1.6rem;
+    font-family: var(--font-family);
+    font-weight: 800;
+
+}
+.main_header .banner_left p{
+
+    color: var(--default);
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+
+}
+.main_header .banner_right{margin-top: 60px; width: 85%; height: 480px;}
+.main_header .banner_right img{
+width: 100%;
+height: 100%;
+
+}
+
+/* for sidenav */
+
+#menu_style{
+  color: var(--default) !important;
+}
+
+.sidenav{
+  background-color:#a93be4e3;
+}
+.sidenav a{
+  color: #fff !important;
+}
+
+/* for second section  / new_section */
+.new_product_container{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.new_product_container hr{
+  width: 100px;
+  border-color: var(--default);
+  border-width: 3px;
+  margin-bottom: 30px;
+}
+.card:hover .card-image img{
+  transform:translate(40deg);
+}
+.card .card-title{
+  color: var(--default) !important;
+  font-weight: 800;
+}
+.card .card-image img{
+  width: 200px;
+  height: 250px;
+  margin: auto;
+  padding:10px;
+}
+.card .card-content p{
+  color: var(--default);
+  font-weight: 400;
+}
+
+/* Contact Secttion or Subcription section  */
+
+#contact_part{
+  display: flex;
+  justify-content: space-between;
+  background: var(--dark-color);
+  padding: 30px;
+}
+#contact_part h2{
+  color: #fff;
+  font-size: 35px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contact_part  p{
+color: #fff;
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+/* for footer section */
+.footer_part{
+  background-color: var(--primaryColor);
+  padding: 20px;
+}
+
+.footer_part h5{
+  font-size: 25px;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+.footer_part hr{
+  border-color: var(--default);
+  border-width: 1px;
+}
+.footer_part ul {
+  font-family: var(--font-family);
+}
+.footer_part li{
+  padding: 3px;
+}
+.footer_part li a{
+  color:black;
+}
+
+/* customized materialize css */
+nav {
+  color:var(--default) !important;
+  background-color:#94949400 !important;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  box-shadow:none !important;
+}
+nav .brand-logo {
+
+  color:var(--default) !important;
+  font-family: var(--font-family);
+  font-weight: 700;
+font-size: 38px;
+}
+nav ul li a{
+  color: var(--default) !important ;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+}
+.btn{
+  background-color: var(--default) !important;
+}
+
+
+
+/* for responsive */
+@media only screen and (min-width: 601px){
+.container {
+    width: 90% !important;
+}
+}
+@media only screen and (max-width: 992px){
+nav .brand-logo {
+    left: 90%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+}
+
+/* Back to top */
+
+
+#back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+  font-size: 25px;
+  background-color:var(--default);
+  border:none;
+  color:white;
+}
+
+
+/* end here */

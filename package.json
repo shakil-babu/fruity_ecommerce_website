@@ -1,0 +1,16 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "Practice makes man perfect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shakil Babu",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "sass": "^1.27.0"
+  }
+}
